@@ -1,0 +1,45 @@
+.menu-container{
+    height:87vh;
+    border:2px solid rgb(20, 18, 18);
+    width:260px;
+    padding:12px;
+    flex-shrink:0;
+    border-radius:12px;
+    background-color:rgb(109, 106, 106);
+    border-width:0px;
+    overflow:auto;
+}
+
+.logo-img{
+    height:40px;
+    width:85px;
+    filter: brightness(0.2) invert(1);
+    margin-left:24px;
+    
+}
+.menu-card{
+    padding:20px;
+    font-size:20px;
+    color:rgb(236, 233, 233);
+    
+}
+.menu-card{
+    padding:.75em 1em;
+    font-size:1.2em;
+    display:block;
+    padding:24px;
+}
+.menu-card :hover{
+    background-color:rgb(255, 255, 255, .1);
+}
+.menu-title{
+    display:flex;
+    justify-content:space-between;
+}
+.menu-title span .icon{
+    display:inline-block;
+    width: 1.5em;
+}
+.menu-title .toggle-btn{
+    cursor:pointer
+}

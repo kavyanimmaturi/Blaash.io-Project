@@ -1,0 +1,28 @@
+.side-slider-container{
+    background-color:rgb(1, 37, 49);
+    height:80%;
+    width:260px;
+    margin-top:45px;
+    border-color:rgb(1, 37, 49);
+    border-radius:8px;
+    padding:8px;
+    overflow:auto;
+    color:#ffffff;
+}
+.heading{
+    caret-color:white;
+    font-size:20px;
+}
+.input{
+    width:240px;
+    margin:10px;
+    height:30px;
+    background-color:transparent;
+    border-color:white;
+    border-radius:8px;
+    font-size: 14px;
+    color:#ffffff;
+}
+.status{
+    color:blue;
+}

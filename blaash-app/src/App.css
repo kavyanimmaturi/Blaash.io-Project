@@ -1,0 +1,30 @@
+
+.home-container{
+  background-color:rgb(9, 4, 4);
+  background-size:cover;
+  display:flex;
+  height:100vh;
+  padding:20px;
+}
+.side-bar{
+  background-color:gray;
+    height:94%;
+    width:260px;
+    margin:28px;
+    flex-shrink:0;
+    border-radius:8px;
+    padding:12px;
+    overflow:auto;
+}
+.main-container{
+  flex-grow:1;
+  color:#ffffff;
+  margin-top:24px;
+}
+.product-playlist-container{
+  height:80%;
+  border:2px solid grey;
+  margin-right:18px;
+  border-radius:8px;
+  background-color:rgb(15, 15, 16);
+}
